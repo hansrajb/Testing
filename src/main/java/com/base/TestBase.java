@@ -25,7 +25,7 @@ public class TestBase {
 		log.info("reading a value for a property: "+key);
 		Properties prop = new Properties();
 		try {
-			log.info("initializing property file");
+			log.info("initializing property ");
 			fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/resources/config.properties");
 			prop.load(fis);
 		} catch (Exception e) {
